@@ -1,0 +1,135 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  background-color: rgb(80, 94, 117);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 2px;
+  padding-left: 10%;
+  color: rgb(227, 202, 172);
+}
+
+.perfil {
+  background-color: rgb(241, 242, 235);
+  padding: 30px 15px;
+  margin-top: 85px;
+}
+
+.perfil img {
+  width: 30%;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.perfil div {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 8%;
+  margin-top: 4%;
+  text-align: center;
+}
+
+.perfil h2 {
+  font-size: 4vw;
+  color: rgb(80, 94, 117);
+}
+
+.perfil table {
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid rgb(121, 165, 170);
+  text-align: center;
+  font-size: 2.5vw;
+  color: rgb(80, 94, 117);
+}
+
+.perfil td {
+  border: 1px solid rgb(121, 165, 170);
+}
+
+.conteudo {
+  background-color: rgb(227, 202, 172);
+}
+
+.aprendi {
+  background-color: rgb(227, 202, 172);
+  margin: 30px 15px;
+  width: 60%;
+  height: 80%;
+  color: rgb(121, 165, 170);
+  display: inline-block;
+}
+
+.aprendi h2 {
+  text-align: center;
+  font-size: 3vw;
+  color: rgb(80, 94, 117);
+}
+
+.bloco {
+  margin-left: 10%;
+}
+
+.aprendi section {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 150%;
+}
+
+.aprendi section h3 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+.aprendi section p {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.aprendi section:nth-of-type( 1 ) {
+  width: 40%;
+  margin-right: 5%;
+}
+
+.aprendi section:nth-of-type( 2 ) {
+  width: 40%;
+}
+
+.aprendi section:nth-of-type( 3 ) {
+  width: 40%;
+  margin-right: 5%;
+}
+
+.aprendi section:nth-of-type( 4 ) {
+  width: 40%;
+}
+
+aside {
+  display: inline-block;
+  width: 20%;
+  height: 80%;
+  vertical-align: top;
+  font-size: 1.3vw;
+  background-color: rgb(241, 242, 235);
+  border-radius: 20px;
+  margin: 30px 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(80, 94, 117);
+  padding: 2px;
+  color: rgb(241, 242, 235);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(227, 202, 172);
+}
