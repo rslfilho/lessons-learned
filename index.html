@@ -1,36 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Projeto Pixels Art</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Roberval Filho - Lessons Learned</title>
 </head>
 <body>
-  <header>
-    <h1 id="title">Paleta de Cores</h1>
-  </header>
-  <main>
-    <section id="color-palette"></section>
-    <section id="setup">
-      <button id="clear-board">Limpar</button>
-      <input type="number" id="board-size" min="1" max="20">
-      <button id="generate-board">Mudar tamanho</button>
-    </section>
-    <section id="pixel-board"></section>   
-    <section id="instructions">
-      <ol><h4>Instruções</h4>
-        <li>Escolha uma Cor</li>
-        <li>Escolha um tamanho para o quadro</li>
-        <li>Preencha os pixels</li>
-        <li>Faça sua arte!!</li>
-      </ol>
-    </section>
-  </main>
-  <footer>
-    <p>Desenvolvido por <a href="../../">Roberval Filho</a> - Bloco 05 - Projeto Pixels Art - <a href="https://www.betrybe.com" target="_blank">Trybe</a></p>
-  </footer>
-  <script src="script.js"></script>
+    <header id="cabecalho">
+        <h1 id="titulo">Lessons Learned</h1>
+        <nav>
+        </nav>
+    </header>
+    <main>
+        <section class="perfil">
+            <img id="minha_foto" src="https://www.rslfilho.com.br/img/face_2021.jpeg" alt="Foto de Perfil de Roberval Filho">
+            <div>
+                <h2>Roberval Filho</h2>
+                <table>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Turma</th>
+                        <th>Início</th>
+                        <th>Bloco</th>
+                    </tr>
+                    <tr>
+                        <td>Piauí</td>
+                        <td>12</td>
+                        <td>05/04/2021</td>
+                        <td>03</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="conteudo">
+            <article class="aprendi lado-esquerdo">
+                <h2>O que já aprendi na Trybe</h2>
+                <div class="bloco">
+                    <section>
+                        <h3>Unix + Shell + Bash</h3>
+                        <p>Nas primeiras aulas do curso nós conhecemos, nos familiarizamos e começamos a dar os primeiros comandos pelo terminal.</p>
+                    </section>
+                    <section>
+                        <h3>Git & GitHub</h3>
+                        <p>Descobrimos a importância de usarmos um Sistema de Versionamento de Código, utilizando o Git. E começamos a utilizar o GitHub para salvar nossos repositórios remotamente.</p>
+                    </section>
+                </div>
+                <div class="bloco">
+                    <section>
+                        <h3>HTML & CSS</h3>
+                        <p>Conhecemos e estudamos o HTML e o CSS, linguagem de marcação e estilo, respectivamente. Aqui tivemos esse primeiro projeto</p>
+                    </section>
+                    <section>
+                        <h3>Soft Skills</h3>
+                        <p>Começamos a nos conhecer melhor desenvolvendo a primeira habilidade de Soft Skills: Inteligência Emocional.</p>
+                    </section>
+                </div>
+            </article>
+            <aside  class="lado-direito">
+                <ol id="licoes_aprendidas"><h3>Lições Aprendidas</h3>
+                    <li>Unix</li>
+                    <li>Shell</li>
+                    <li>Bash</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Estrutura no HTML</li>
+                    <li>Estilização CSS</li>
+                    <li>HTML Semântico</li>
+                    <li>VS Code</li>
+                    <li>Slack + Zoom</li>
+                </ol>
+                <ul id="licoes_a_aprender"><h3>Lições a Aprender</h3>
+                    <li>Logica de Programação</li>
+                    <li>Array & For</li>
+                    <li>Algoritmos</li>
+                    <li>Objetos e Funções</li>
+                    <li>JavaScript</li>
+                    <li>Testes Unitários</li>
+                    <li>Front-End/li>
+                    <li>Back-End</li>
+                    <li>Banco de Dados</li>
+                    <li>Ciências das Computação</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>Desenvolvido por <a href="../../">Roberval Filho</a> - Projeto Bloco 03 - <a href="https://www.betrybe.com/" target="_blank">Trybe</a></p>
+    </footer>
 </body>
 </html>
