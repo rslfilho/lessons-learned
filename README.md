@@ -6,6 +6,10 @@ Tempo de curso: 15 dias
 
 O objetivo desse projeto era desenvoler um site que apresentasse uma série de informações sobre o que já estudamos no curo da Trybe nos três primeiros blocos. O site deveria ter elementos posicionados e estilizados conforme os requisitos e também ter semântica apropriada para que fosse acessível e melhor ranqueado.
 
+Arquivos desenvolvidos:
+- index.html
+- style.css
+
 ## Imagens
 
 ![printscreen](./lessons-learned.png)
