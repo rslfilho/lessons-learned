@@ -8,7 +8,7 @@ O objetivo desse projeto era desenvoler um site que apresentasse uma série de i
 
 ## Imagens
 
-[./lessons-learned.png]
+![printscreen](./lessons-learned.png)
 
 ## Requisitos
 
